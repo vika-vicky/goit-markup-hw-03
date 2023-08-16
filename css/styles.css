@@ -207,6 +207,8 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
+/* homework 3 */
+
 p {
     margin: 0;
 }
@@ -227,9 +229,38 @@ img {
 }
 
 .container { 
-    max-width: 1440px;
-    padding-left:  156px;
-    padding-right:  156px;
-    margin-left:  ;
-    margin-right:  ;
+    max-width: 1158px;
+    padding-left:  15px;
+    padding-right: 15px;
+    margin-left:  auto;
+    margin-right:  auto;
     }
+
+    .all-headers {
+        border-bottom: 1px solid var(--cornflower);
+    }
+
+    .all-headers-content {
+        display: flex;
+    }
+    
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 76px;
+    }
+
+    .menu-list {
+        display: flex; 
+        gap: 40px;
+        margin-right: 332px;
+    }
+
+    .address-list {
+        display: flex; 
+        gap: 40px;
+    }
+
