@@ -9,6 +9,12 @@
     --slate: #434455;
 }
 
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 .list {
     list-style: none;
 }
@@ -187,3 +193,43 @@ color: var(--navy-blue);
 .portfolio-paragraph {
     color: var(--slate);
 }
+
+.visually-hidden {
+    position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container { 
+    max-width: 1440px;
+    padding-left:  156px;
+    padding-right:  156px;
+    margin-left:  ;
+    margin-right:  ;
+    }
