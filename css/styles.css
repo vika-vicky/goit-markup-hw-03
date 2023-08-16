@@ -295,7 +295,7 @@ overflow: hidden;
 }
 
 .pillars-list {
-    display: inline-flex;
+    display: flex;
     gap: 24px;
 }
 
@@ -305,4 +305,23 @@ overflow: hidden;
 
 .pillars-title {
     margin-bottom: 8px;
+}
+
+/* section 3 */
+.what-we-do-section {
+    padding: 120px 0;
+}
+
+.what-we-do-title {
+    padding-bottom: 72px;
+}
+
+.what-we-do-list {
+    display: flex;
+    gap: 24px;
+}
+
+.what-we-do-item {
+    width: calc((100% - 48px) / 3);
+    border-style: none;
 }
