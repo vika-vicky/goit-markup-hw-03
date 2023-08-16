@@ -235,7 +235,7 @@ img {
     margin-left:  auto;
     margin-right:  auto;
     }
-
+/* header */
     .all-headers {
         border-bottom: 1px solid var(--cornflower);
     }
@@ -257,10 +257,36 @@ img {
         display: flex; 
         gap: 40px;
         margin-right: 332px;
+        padding: 24px 0;
     }
 
     .address-list {
+        padding-top: 24px;
         display: flex; 
         gap: 40px;
     }
 
+/* section 1 */
+.hero-section {
+    padding: 188px 0;
+}
+
+.page-header {
+max-width: 496px;
+margin: auto;
+margin-bottom: 48px;
+}
+
+.hero-btn {
+    display: block;
+    margin: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+/* section 2 */
+.our-pillars {
+    display: inline-flex;
+    gap: 24px;
+}
