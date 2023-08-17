@@ -379,6 +379,11 @@ img {
 
 /* portfolio */
 /* buttons */
+.buttons-container {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
+
 .buttons-list {
     padding-top: 96px;
     padding-bottom: 72px;
@@ -405,7 +410,7 @@ img {
     gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
+    margin-bottom: 72px
 }
 
 .offers-list-item {
