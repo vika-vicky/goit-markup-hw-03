@@ -229,6 +229,8 @@ img {
 /* header */
 .all-headers {
     border-bottom: 1px solid var(--cornflower);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .all-headers-content {
@@ -255,7 +257,6 @@ img {
 }
 
 .address-list {
-    padding-top: 24px;
     display: flex;
     gap: 40px;
 }
@@ -327,7 +328,11 @@ img {
 
 .what-we-do-item {
     width: calc((100% - 48px) / 3);
-    border-style: none;
+    border: var(--cornflower) 1px solid;
+}
+
+img {
+	display: block;
 }
 
 /* section 4 */
@@ -385,7 +390,6 @@ img {
 }
 
 .buttons-list {
-    padding-top: 96px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -425,4 +429,5 @@ img {
 
 .portfolio-second-level-header {
     margin-bottom: 8px;
+    text-align: left;
 }
