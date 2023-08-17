@@ -345,7 +345,7 @@ img {
 }
 
 .our-team-list-item {
-    width: width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -386,10 +386,10 @@ img {
 
 .buttons-list {
     padding-top: 96px;
-    padding-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 .filter-buttons-section {
@@ -400,7 +400,7 @@ img {
 
 .filter-buttons-section:hover,
 .filter-buttons-section:focus {
-    border: 1px solid transparent
+    border: 1px solid transparent;
 }
 
 /* pictures */
@@ -410,7 +410,6 @@ img {
     gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 72px
 }
 
 .offers-list-item {
