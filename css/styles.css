@@ -357,13 +357,14 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 /* footer */
-.footer {
-    display: block;
-    padding-top: 100px;
+.footer-class {
+    padding: 100px 0;
+}
+.footer-logo {
+    display: inline-block;
+    padding-bottom: 16px;
 }
 
 .footer-text {
     max-width: 264px;
-    padding-top: 16px;
-    padding-bottom: 100px;
 }
