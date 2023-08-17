@@ -331,10 +331,6 @@ img {
     border: var(--cornflower) 1px solid;
 }
 
-img {
-	display: block;
-}
-
 /* section 4 */
 .our-team {
     padding: 120px 0;
